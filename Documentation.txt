@@ -1,0 +1,11 @@
+Documentation:
+This keylogger program is meant to monitor the keystrokes of a user and write them into a file with a time stamp. This program is for educational purposes (not to be used maliciously although that is the implied use of this demonstration) and demonstrates how keylogging is meant to be implemented using python.
+
+Features:
+Captures keystrokes and writes them into a file
+Uses Pynput for keyboard events
+Uses timestamps to label keystrokes with times inputted
+Exits when escape is pressed 
+
+Future Improvements:
+To further improve this program I would implement encryption for the logs, add GUI using tkinter, and enhance the Error handling.
