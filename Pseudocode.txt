@@ -1,0 +1,20 @@
+Pseudocode:
+From Pynput Import Keyboard
+Import datetime
+
+Class Keylogger:
+	Initialize Keylogger:
+		Set Log file/name
+		Initialize list to store keystrokes
+	Define Function for Key Press:
+		Append each character to the list
+		If it is a special key store it in brackets
+	Define Function to Write down time something is written:
+		String for timestamp
+		Open file and write timestamp onto file
+	Define Function to start listening to Keystrokes:
+		With keyboard.Listener(on_press=self.on_press) as listener:
+		listener.join()
+Run Program: 
+Create instance of KeyLogger
+Call the start method
